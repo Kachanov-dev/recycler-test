@@ -1,68 +1,112 @@
-export const _mockedMessages = [
+const _mockedMessages = [
   {
-    index: 1,
-    message: 'some text - 1'
+    id: 11,
+    message: 'some text - 11',
   },
   {
-    index: 2,
-    message: 'some text - 2'
+    id: 12,
+    message: 'some text - 12',
   },
   {
-    index: 3,
-    message: 'some text - 3'
+    id: 13,
+    message: 'some text - 13',
   },
   {
-    index: 4,
-    message: 'some text - 4'
+    id: 14,
+    message: 'some text - 15',
   },
   {
-    index: 5,
-    message: 'some text - 5'
+    id: 15,
+    message: 'some text - 15',
   },
   {
-    index: 6,
-    message: 'some text - 6'
+    id: 16,
+    message: 'some text - 16',
   },
   {
-    index: 7,
-    message: 'some text - 7'
+    id: 17,
+    message: 'some text - 17',
   },
   {
-    index: 8,
-    message: 'some text - 8'
+    id: 18,
+    message: 'some text - 18',
   },
   {
-    index: 9,
-    message: 'some text - 9'
+    id: 19,
+    message: 'some text - 19',
   },
   {
-    index: 10,
-    message: 'some text - 10'
+    id: 20,
+    message: 'some text - 20',
   },
   {
-    index: 11,
-    message: 'some text - 11'
+    id: 21,
+    message: 'some text - 21',
   },
   {
-    index: 12,
-    message: 'some text - 12'
+    id: 22,
+    message: 'some text - 22',
   },
   {
-    index: 13,
-    message: 'some text - 13'
+    id: 23,
+    message: 'some text - 23',
   },
   {
-    index: 14,
-    message: 'some text - 15'
+    id: 24,
+    message: 'some text - 24',
   },
   {
-    index: 15,
-    message: 'some text - 15'
+    id: 25,
+    message: 'some text - 25',
   },
   {
-    index: 16,
-    message: 'some text - 16'
+    id: 26,
+    message: 'some text - 26',
   },
-]
-const mockedMessages = _mockedMessages.reverse()
-export {mockedMessages}
+];
+
+const _mockedMessages2 = [
+  {
+    id: 1,
+    message: 'some text - 1',
+  },
+  {
+    id: 2,
+    message: 'some text - 2',
+  },
+  {
+    id: 3,
+    message: 'some text - 3',
+  },
+  {
+    id: 4,
+    message: 'some text - 4',
+  },
+  {
+    id: 5,
+    message: 'some text - 5',
+  },
+  {
+    id: 6,
+    message: 'some text - 6',
+  },
+  {
+    id: 7,
+    message: 'some text - 7',
+  },
+  {
+    id: 8,
+    message: 'some text - 8',
+  },
+  {
+    id: 9,
+    message: 'some text - 9',
+  },
+  {
+    id: 10,
+    message: 'some text - 10',
+  },
+];
+const mockedMessages = _mockedMessages.reverse();
+const mockedMessages2 = mockedMessages.concat(_mockedMessages2.reverse());
+export { mockedMessages, mockedMessages2 };

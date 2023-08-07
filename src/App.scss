@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+html,
+body {
+  // disable bounce for Mac || IOS
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white !important;
+  color: white;
+  // overscroll-behavior: contain;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  input {
+    cursor: text;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+  }
+  main {
+    background: white;
+    overflow: hidden;
+  }
+
+  .am-toast.am-toast-nomask {
+    z-index: 2002;
+  }
+}

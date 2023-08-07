@@ -1,12 +1,10 @@
 import './App.scss';
-import { ChatMain } from './components/chat';
-import { NewChat } from './components/newChat';
+import { Chat } from './components/Chat';
 
 function App() {
   return (
     <div className='App'>
-      {/*<ChatMain />*/}
-      <NewChat />
+      <Chat />
     </div>
   );
 }
